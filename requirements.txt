@@ -1,0 +1,12 @@
+# Forked Telethon with fast_upload support
+https://github.com/vasusen-code/Telethon/archive/refs/tags/v1.24.0.zip
+https://github.com/vasusen-code/ethon/archive/refs/tags/v0.1.5.zip
+
+# C-extension AES crypto — MUST compile or speed caps at ~2 Mbps
+# Requires gcc + libssl-dev + python3-dev in the Docker image
+cryptg>=0.4.0
+tgcrypto>=1.2.3
+
+pyrogram
+python-decouple
+aiofiles>=23.1.0
